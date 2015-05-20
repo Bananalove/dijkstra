@@ -1,9 +1,19 @@
-﻿Build started 2015-05-16 17:52:41.
+﻿Build started 2015-05-20 22:02:23.
      1>Project "C:\Users\Compaq\Documents\Visual Studio 2013\Projects\grafy_dij\grafy_dij\grafy_dij.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Visual_studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         D:\Visual_studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt generic.cpp graph.cpp main.cpp prim_kruskal.cpp
+         generic.cpp
+     1>c:\users\compaq\documents\visual studio 2013\projects\grafy_dij\grafy_dij\generic.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\compaq\documents\visual studio 2013\projects\grafy_dij\grafy_dij\generic.cpp(28): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\compaq\documents\visual studio 2013\projects\grafy_dij\grafy_dij\generic.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Compiling...
          main.cpp
      1>c:\users\compaq\documents\visual studio 2013\projects\grafy_dij\grafy_dij\stoper.h(14): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         prim_kruskal.cpp
+         graph.cpp
        Link:
          D:\Visual_studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Compaq\Documents\Visual Studio 2013\Projects\grafy_dij\Debug\grafy_dij.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Compaq\Documents\Visual Studio 2013\Projects\grafy_dij\Debug\grafy_dij.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Compaq\Documents\Visual Studio 2013\Projects\grafy_dij\Debug\grafy_dij.lib" /MACHINE:X86 Debug\generic.obj
          Debug\graph.obj
@@ -14,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.94
+Time Elapsed 00:00:02.49
